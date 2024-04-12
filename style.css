@@ -1,0 +1,75 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(235, 18%, 26%);
+}
+
+.mainContainer {
+  width: 900px;
+  height: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+.leftSide {
+  float: left;
+  position: relative;
+  left: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+}
+
+.leftSide h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+  color: hsl(233, 28%, 19%);
+}
+
+.leftSide ul {
+  list-style: none;
+  position: relative;
+  right: 25px;
+}
+
+.leftSide li {
+  list-style-image: url(imgs/icon-list.svg);
+  margin: 10px;
+}
+
+.listText {
+  position: relative;
+  bottom: 5px;
+}
+
+.rightSide {
+  float: right;
+}
+
+form,
+button {
+  position: relative;
+  top: 30px;
+}
+
+#input {
+  margin-bottom: 20px;
+  font-size: 1em;
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  border-style: 50px solid hsl(231, 7%, 60%);
+}
+
+button {
+  height: 50px;
+  width: 300px;
+  background-color: hsl(232, 31%, 20%);
+  border-style: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  border-radius: 5px;
+}
